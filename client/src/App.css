@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+.anton {
+  font-family: "Anton", sans-serif;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.footer{
+  /* border: 1px solid brown; */
+}
+.footer button {
+  border: none;
+  background: transparent;
+}
+.i {
+  font-size: 1.5rem !important;
+  color: black;
+  background: transparent;
+  transition: transform 0.2s ease-in-out;
+}
+.i:hover {
+  transform: scale(1.1);
+}
+.trans-btn {
+  border-radius: 15px;
+  padding: 0.3rem 0.6rem;
+  position: relative;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  z-index: 1;
+  border: none;
+}
+.trans-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: #000;
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+  z-index: -1;
+}
+.trans-btn:hover::after {
+  transform: scaleX(1.1);
+}

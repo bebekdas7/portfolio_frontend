@@ -1,0 +1,51 @@
+.project {
+  border: 1px solid whitesmoke;
+  background: url("../../public/images/project2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+.project-header {
+  /* border: 1px solid black; */
+}
+.project-header > h1 {
+  font-size: 3rem;
+}
+
+/* ----------projectmiddle---------------- */
+
+.futurechaos {
+  /* border: 1px solid red; */
+}
+.futurechaos-1 > span {
+  width: 95%;
+  height: 40vh;
+}
+.futurechaos-1 > span > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.futurechaos-2 {
+  height: 100%;
+}
+
+.book {
+  /* border: 1px solid red; */
+}
+.book-1 > span {
+  width: 95%;
+  height: 40vh;
+}
+.book-1 > span > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.book-2 {
+  height: 100%;
+}
